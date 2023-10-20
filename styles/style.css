@@ -322,7 +322,8 @@ a {
 .logo-cart {
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;  
+
 
     & img {
         height: 3.5em;
@@ -337,8 +338,10 @@ a {
 
         &:hover {
             color: var(--black);
+       
         }
     }
+   
 
 }
 .main-images {
@@ -444,6 +447,8 @@ a {
     border-radius: 25px;
     margin-top: 1em;
     overflow: hidden;
+    transition: transform 0.2s ease-in-out;  
+    
 
     & .button-layer{
         position: absolute;
@@ -458,6 +463,7 @@ a {
 
     &:hover .button-layer {
         left: 0;
+        transform: translateY(-4px);
     }
 
     & button {
@@ -488,7 +494,10 @@ a {
     font-family: "Poppins", sans-serif;
     left: 531px;
     top: -450px;
+
 }
+
+
 #container3{
     position: relative;
     max-width: 24em;
@@ -577,7 +586,9 @@ a {
     width: 40%;
     transition: transform 0.2s ease-in-out;
 }
+
 .muestra1 img:hover {
+
     transform: translateY(-4px);
 }
 .muestra2 img {
