@@ -65,13 +65,16 @@ body {
     background-color: #ffffff; 
     padding: 0 455px;
     z-index: 1000;
+
+    
 }
 
 .menu {
     list-style: none;
     display: flex;
-    gap: 20px; 
-    padding: 0;
+    gap: 100px; 
+    padding: 2;
+
 }
 
 .menu li a {
@@ -80,6 +83,8 @@ body {
     color: #000; 
     text-transform: uppercase;
     font-weight: bold;
+  
+
 }
 
 .menu li a:after {
@@ -93,6 +98,7 @@ body {
     background-color: #000; 
     transform-origin: bottom right;
     transition: transform 0.3s ease-out;
+
    
 }
 
